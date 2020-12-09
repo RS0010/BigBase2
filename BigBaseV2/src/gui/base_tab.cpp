@@ -5,6 +5,7 @@
 #include "fiber_pool.hpp"
 #include "natives.hpp"
 #include "gta_util.hpp"
+#include "persist/PersistCar.h"
 
 namespace big
 {
@@ -82,6 +83,9 @@ namespace big
 			{
 				g_running = false;
 			}
+
+			persist_car::do_presentation_layer();
+
 			ImGui::EndTabItem();
 		}
 	}

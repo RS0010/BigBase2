@@ -1,0 +1,104 @@
+{
+    "Clan Logo": 0,
+    "Dash Color": 0,
+    "Headlight Color": 255,
+    "Interior Color": 1,
+    "MOD_ARMOR": [
+        4,
+        0
+    ],
+    "MOD_BRAKES": [
+        3,
+        0
+    ],
+    "MOD_ENGINE": [
+        3,
+        0
+    ],
+    "MOD_FRONTBUMPER": [
+        2,
+        0
+    ],
+    "MOD_FRONTWHEEL": [
+        12,
+        0
+    ],
+    "MOD_LIVERY": [
+        2,
+        0
+    ],
+    "MOD_ROOF": [
+        1,
+        0
+    ],
+    "MOD_SIDESKIRT": [
+        2,
+        0
+    ],
+    "MOD_SPOILERS": [
+        5,
+        0
+    ],
+    "MOD_TRANSMISSION": [
+        3,
+        0
+    ],
+    "MOD_TURBO": "TOGGLE",
+    "Model Attachments": [],
+    "Neon Color": [
+        0,
+        0,
+        0
+    ],
+    "Neon Lights": [
+        false,
+        false,
+        false,
+        false
+    ],
+    "Pearlescent Color": 5,
+    "Plate Text": "63JRQ685",
+    "Plate Text Index": 0,
+    "Primary Color": 5,
+    "Radio Station": "RADIO_19_USER",
+    "Secondary Color": 111,
+    "Vehicle Attachments": [],
+    "Vehicle Extras": [
+        [
+            1,
+            false
+        ],
+        [
+            2,
+            false
+        ],
+        [
+            3,
+            false
+        ],
+        [
+            4,
+            false
+        ],
+        [
+            5,
+            false
+        ],
+        [
+            6,
+            false
+        ],
+        [
+            7,
+            false
+        ],
+        [
+            8,
+            false
+        ]
+    ],
+    "Vehicle Model Hash": 2334210311,
+    "Vehicle Window Tint": 0,
+    "Wheel Color": 156,
+    "Wheel Type": 10
+}

@@ -1,0 +1,96 @@
+{
+    "Clan Logo": 0,
+    "Dash Color": 132,
+    "Headlight Color": 255,
+    "Interior Color": 1,
+    "MOD_ARMOR": [
+        4,
+        0
+    ],
+    "MOD_BRAKES": [
+        2,
+        0
+    ],
+    "MOD_ENGINE": [
+        3,
+        0
+    ],
+    "MOD_EXHAUST": [
+        0,
+        0
+    ],
+    "MOD_FRONTBUMPER": [
+        0,
+        0
+    ],
+    "MOD_FRONTWHEEL": [
+        16,
+        0
+    ],
+    "MOD_GRILLE": [
+        2,
+        0
+    ],
+    "MOD_HOOD": [
+        1,
+        0
+    ],
+    "MOD_LIVERY": [
+        0,
+        0
+    ],
+    "MOD_REARBUMPER": [
+        0,
+        0
+    ],
+    "MOD_ROOF": [
+        0,
+        0
+    ],
+    "MOD_SIDESKIRT": [
+        0,
+        0
+    ],
+    "MOD_SPOILERS": [
+        1,
+        0
+    ],
+    "MOD_SUSPENSION": [
+        3,
+        0
+    ],
+    "MOD_TRANSMISSION": [
+        3,
+        0
+    ],
+    "MOD_TURBO": "TOGGLE",
+    "Model Attachments": [],
+    "Neon Color": [
+        255,
+        0,
+        255
+    ],
+    "Neon Lights": [
+        false,
+        false,
+        false,
+        false
+    ],
+    "Pearlescent Color": 37,
+    "Plate Text": "63LUV750",
+    "Plate Text Index": 1,
+    "Primary Color": 38,
+    "Radio Station": "OFF",
+    "Secondary Color": 38,
+    "Vehicle Attachments": [],
+    "Vehicle Extras": [
+        [
+            1,
+            true
+        ]
+    ],
+    "Vehicle Model Hash": 4086055493,
+    "Vehicle Window Tint": 0,
+    "Wheel Color": 156,
+    "Wheel Type": 0
+}

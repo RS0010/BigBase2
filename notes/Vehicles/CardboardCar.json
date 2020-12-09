@@ -1,0 +1,71 @@
+{
+    "Clan Logo": 0,
+    "Dash Color": 0,
+    "Headlight Color": 255,
+    "Interior Color": 1,
+    "MOD_ARMOR": [
+        0,
+        0
+    ],
+    "MOD_ENGINE": [
+        1,
+        0
+    ],
+    "MOD_FRONTBUMPER": [
+        0,
+        0
+    ],
+    "MOD_HOOD": [
+        0,
+        0
+    ],
+    "MOD_HORNS": [
+        3,
+        0
+    ],
+    "MOD_REARBUMPER": [
+        0,
+        0
+    ],
+    "MOD_ROOF": [
+        0,
+        0
+    ],
+    "MOD_SIDESKIRT": [
+        0,
+        0
+    ],
+    "MOD_SPOILERS": [
+        0,
+        0
+    ],
+    "Model Attachments": [],
+    "Neon Color": [
+        255,
+        0,
+        255
+    ],
+    "Neon Lights": [
+        false,
+        false,
+        false,
+        false
+    ],
+    "Pearlescent Color": 0,
+    "Plate Text": "7QWJP335",
+    "Plate Text Index": 0,
+    "Primary Color": 0,
+    "Radio Station": "OFF",
+    "Secondary Color": 0,
+    "Tire Smoke Color": [
+        255,
+        255,
+        255
+    ],
+    "Vehicle Attachments": [],
+    "Vehicle Extras": [],
+    "Vehicle Model Hash": 3306466016,
+    "Vehicle Window Tint": 0,
+    "Wheel Color": 156,
+    "Wheel Type": 0
+}

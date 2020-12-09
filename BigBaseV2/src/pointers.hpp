@@ -3,6 +3,7 @@
 #include "gta/fwddec.hpp"
 #include "gta/enums.hpp"
 #include "function_types.hpp"
+#include "gta/replay.hpp"
 
 namespace big
 {
@@ -34,6 +35,9 @@ namespace big
 		IDXGISwapChain **m_swapchain{};
 
 		PVOID m_model_spawn_bypass;
+
+		functions::ptr_to_handle_t m_ptr_to_handle{};
+		rage::CReplayInterface* m_replay_interface;
 	};
 
 	inline pointers *g_pointers{};

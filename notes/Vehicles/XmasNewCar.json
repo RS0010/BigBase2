@@ -1,0 +1,85 @@
+{
+    "Clan Logo": 1,
+    "Dash Color": 132,
+    "Headlight Color": 255,
+    "Interior Color": 1,
+    "MOD_ARMOR": [
+        4,
+        0
+    ],
+    "MOD_BRAKES": [
+        2,
+        0
+    ],
+    "MOD_ENGINE": [
+        3,
+        0
+    ],
+    "MOD_EXHAUST": [
+        0,
+        0
+    ],
+    "MOD_FRONTWHEEL": [
+        5,
+        0
+    ],
+    "MOD_HOOD": [
+        0,
+        0
+    ],
+    "MOD_HORNS": [
+        48,
+        0
+    ],
+    "MOD_LIVERY": [
+        29,
+        0
+    ],
+    "MOD_ROOF": [
+        0,
+        0
+    ],
+    "MOD_SPOILERS": [
+        0,
+        0
+    ],
+    "MOD_SUSPENSION": [
+        2,
+        0
+    ],
+    "MOD_TRANSMISSION": [
+        3,
+        0
+    ],
+    "MOD_TURBO": "TOGGLE",
+    "MOD_XENONHEADLIGHTS": "TOGGLE",
+    "Model Attachments": [],
+    "Neon Color": [
+        0,
+        0,
+        0
+    ],
+    "Neon Lights": [
+        false,
+        false,
+        false,
+        false
+    ],
+    "Pearlescent Color": 0,
+    "Plate Text": "MERYXMAS",
+    "Plate Text Index": 1,
+    "Primary Color": 29,
+    "Radio Station": "RADIO_22_DLC_BATTLE_MIX1_RADIO",
+    "Secondary Color": 53,
+    "Tire Smoke Color": [
+        114,
+        204,
+        114
+    ],
+    "Vehicle Attachments": [],
+    "Vehicle Extras": [],
+    "Vehicle Model Hash": 159274291,
+    "Vehicle Window Tint": 0,
+    "Wheel Color": 125,
+    "Wheel Type": 5
+}

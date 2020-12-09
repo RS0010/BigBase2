@@ -1,0 +1,84 @@
+{
+    "Clan Logo": 1,
+    "Dash Color": 0,
+    "Headlight Color": 255,
+    "Interior Color": 1,
+    "MOD_ARMOR": [
+        4,
+        0
+    ],
+    "MOD_BRAKES": [
+        2,
+        0
+    ],
+    "MOD_ENGINE": [
+        3,
+        0
+    ],
+    "MOD_EXHAUST": [
+        5,
+        0
+    ],
+    "MOD_FRONTBUMPER": [
+        1,
+        0
+    ],
+    "MOD_FRONTWHEEL": [
+        7,
+        0
+    ],
+    "MOD_HOOD": [
+        0,
+        0
+    ],
+    "MOD_HORNS": [
+        56,
+        0
+    ],
+    "MOD_LIVERY": [
+        1,
+        0
+    ],
+    "MOD_ROOF": [
+        0,
+        0
+    ],
+    "MOD_SPOILERS": [
+        4,
+        0
+    ],
+    "MOD_TRANSMISSION": [
+        2,
+        0
+    ],
+    "MOD_TURBO": "TOGGLE",
+    "Model Attachments": [],
+    "Neon Color": [
+        0,
+        0,
+        0
+    ],
+    "Neon Lights": [
+        false,
+        false,
+        false,
+        false
+    ],
+    "Pearlescent Color": 0,
+    "Plate Text": "83EPT765",
+    "Plate Text Index": 0,
+    "Primary Color": 70,
+    "Radio Station": "OFF",
+    "Secondary Color": 111,
+    "Tire Smoke Color": [
+        20,
+        20,
+        20
+    ],
+    "Vehicle Attachments": [],
+    "Vehicle Extras": [],
+    "Vehicle Model Hash": 3612858749,
+    "Vehicle Window Tint": 0,
+    "Wheel Color": 70,
+    "Wheel Type": 0
+}

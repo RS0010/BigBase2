@@ -71,6 +71,16 @@ namespace big
 			m_model_spawn_bypass = ptr.add(8).as<PVOID>();
 		});
 
+		main_batch.add("ptr_to_handle", "48 89 5C 24 ? 48 89 74 24 ? 57 48 83 EC 20 8B 15 ? ? ? ? 48 8B F9 48 83 C1 10 33 DB", [this](memory::handle ptr)
+		{
+			m_ptr_to_handle = ptr.as<functions::ptr_to_handle_t>();
+		});
+
+		main_batch.add("ReplayInterface", "48 8D 3D ? ? ? ? 75 16", [this](memory::handle ptr)
+		{
+			m_replay_interface = *(rage::CReplayInterface**)ptr.add(3).rip().as<PVOID>();
+		});
+
 		main_batch.run(memory::module(nullptr));
 
 		m_hwnd = FindWindowW(L"grcWindow", nullptr);

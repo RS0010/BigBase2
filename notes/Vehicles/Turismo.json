@@ -1,0 +1,85 @@
+{
+    "Clan Logo": 1,
+    "Dash Color": 0,
+    "Headlight Color": 255,
+    "Interior Color": 70,
+    "MOD_ARMOR": [
+        4,
+        0
+    ],
+    "MOD_BRAKES": [
+        2,
+        0
+    ],
+    "MOD_ENGINE": [
+        3,
+        0
+    ],
+    "MOD_EXHAUST": [
+        3,
+        0
+    ],
+    "MOD_FENDER": [
+        0,
+        0
+    ],
+    "MOD_FRONTBUMPER": [
+        0,
+        0
+    ],
+    "MOD_FRONTWHEEL": [
+        7,
+        0
+    ],
+    "MOD_HOOD": [
+        0,
+        0
+    ],
+    "MOD_HORNS": [
+        8,
+        0
+    ],
+    "MOD_ROOF": [
+        0,
+        0
+    ],
+    "MOD_SIDESKIRT": [
+        0,
+        0
+    ],
+    "MOD_TRANSMISSION": [
+        2,
+        0
+    ],
+    "MOD_TURBO": "TOGGLE",
+    "MOD_XENONHEADLIGHTS": "TOGGLE",
+    "Model Attachments": [],
+    "Neon Color": [
+        0,
+        0,
+        0
+    ],
+    "Neon Lights": [
+        false,
+        false,
+        false,
+        false
+    ],
+    "Pearlescent Color": 0,
+    "Plate Text": " 2FAST  ",
+    "Plate Text Index": 2,
+    "Primary Color": 70,
+    "Radio Station": "RADIO_16_SILVERLAKE",
+    "Secondary Color": 111,
+    "Tire Smoke Color": [
+        20,
+        20,
+        20
+    ],
+    "Vehicle Attachments": [],
+    "Vehicle Extras": [],
+    "Vehicle Model Hash": 3312836369,
+    "Vehicle Window Tint": 1,
+    "Wheel Color": 70,
+    "Wheel Type": 0
+}

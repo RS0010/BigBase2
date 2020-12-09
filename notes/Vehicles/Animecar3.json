@@ -1,0 +1,104 @@
+{
+    "Clan Logo": 0,
+    "Dash Color": 0,
+    "Headlight Color": 255,
+    "Interior Color": 1,
+    "MOD_ARMOR": [
+        4,
+        0
+    ],
+    "MOD_BRAKES": [
+        2,
+        0
+    ],
+    "MOD_ENGINE": [
+        3,
+        0
+    ],
+    "MOD_EXHAUST": [
+        2,
+        0
+    ],
+    "MOD_FENDER": [
+        3,
+        0
+    ],
+    "MOD_FRAME": [
+        5,
+        0
+    ],
+    "MOD_FRONTBUMPER": [
+        3,
+        0
+    ],
+    "MOD_FRONTWHEEL": [
+        23,
+        0
+    ],
+    "MOD_GRILLE": [
+        1,
+        0
+    ],
+    "MOD_LIVERY": [
+        11,
+        0
+    ],
+    "MOD_REARBUMPER": [
+        2,
+        0
+    ],
+    "MOD_RIGHTFENDER": [
+        0,
+        0
+    ],
+    "MOD_SIDESKIRT": [
+        0,
+        0
+    ],
+    "MOD_SPOILERS": [
+        0,
+        0
+    ],
+    "MOD_SUSPENSION": [
+        3,
+        0
+    ],
+    "MOD_TRANSMISSION": [
+        2,
+        0
+    ],
+    "MOD_TRIMDESIGN": [
+        0,
+        0
+    ],
+    "MOD_TURBO": "TOGGLE",
+    "Model Attachments": [],
+    "Neon Color": [
+        255,
+        0,
+        255
+    ],
+    "Neon Lights": [
+        false,
+        false,
+        false,
+        false
+    ],
+    "Pearlescent Color": 64,
+    "Plate Text": "ANIMEGAY",
+    "Plate Text Index": 1,
+    "Primary Color": 72,
+    "Radio Station": "RADIO_16_SILVERLAKE",
+    "Secondary Color": 72,
+    "Vehicle Attachments": [],
+    "Vehicle Extras": [
+        [
+            1,
+            true
+        ]
+    ],
+    "Vehicle Model Hash": 409049982,
+    "Vehicle Window Tint": 1,
+    "Wheel Color": 135,
+    "Wheel Type": 0
+}
