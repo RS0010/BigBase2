@@ -1,8 +1,8 @@
 {
-    "Clan Logo": 1,
-    "Dash Color": 0,
+    "Clan Logo": 0,
+    "Dash Color": 156,
     "Headlight Color": 255,
-    "Interior Color": 70,
+    "Interior Color": 0,
     "MOD_ARMOR": [
         4,
         0
@@ -16,43 +16,39 @@
         0
     ],
     "MOD_EXHAUST": [
-        2,
+        9,
         0
     ],
-    "MOD_FRONTWHEEL": [
-        7,
-        0
-    ],
-    "MOD_HOOD": [
-        1,
+    "MOD_GRILLE": [
+        9,
         0
     ],
     "MOD_HORNS": [
-        8,
+        2,
         0
     ],
     "MOD_LIVERY": [
         1,
         0
     ],
-    "MOD_SIDESKIRT": [
-        0,
+    "MOD_RIGHTFENDER": [
+        1,
         0
     ],
     "MOD_SPOILERS": [
-        2,
+        1,
         0
     ],
     "MOD_TRANSMISSION": [
-        3,
+        2,
         0
     ],
     "MOD_TURBO": "TOGGLE",
     "Model Attachments": [],
     "Neon Color": [
+        255,
         0,
-        0,
-        0
+        255
     ],
     "Neon Lights": [
         false,
@@ -60,26 +56,21 @@
         false,
         false
     ],
-    "Pearlescent Color": 0,
-    "Plate Text": " 2FAST  ",
-    "Plate Text Index": 1,
-    "Primary Color": 70,
-    "Radio Station": "RADIO_19_USER",
-    "Secondary Color": 111,
+    "Pearlescent Color": 21,
+    "Plate Text": "40TFE917",
+    "Plate Text Index": 0,
+    "Primary Color": 27,
+    "Radio Station": "OFF",
+    "Secondary Color": 12,
     "Tire Smoke Color": [
-        20,
-        20,
-        20
+        255,
+        255,
+        255
     ],
     "Vehicle Attachments": [],
-    "Vehicle Extras": [
-        [
-            1,
-            true
-        ]
-    ],
-    "Vehicle Model Hash": 3630826055,
-    "Vehicle Window Tint": 0,
-    "Wheel Color": 70,
-    "Wheel Type": 0
+    "Vehicle Extras": [],
+    "Vehicle Model Hash": 2802050217,
+    "Vehicle Window Tint": -1,
+    "Wheel Color": 22,
+    "Wheel Type": 7
 }

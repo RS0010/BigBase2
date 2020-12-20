@@ -1,8 +1,8 @@
 {
-    "Clan Logo": 1,
+    "Clan Logo": 0,
     "Dash Color": 0,
     "Headlight Color": 255,
-    "Interior Color": 70,
+    "Interior Color": 111,
     "MOD_ARMOR": [
         4,
         0
@@ -16,43 +16,39 @@
         0
     ],
     "MOD_EXHAUST": [
-        2,
+        10,
         0
     ],
-    "MOD_FRONTWHEEL": [
-        7,
+    "MOD_FRONTBUMPER": [
+        4,
         0
     ],
-    "MOD_HOOD": [
-        1,
-        0
-    ],
-    "MOD_HORNS": [
+    "MOD_GRILLE": [
         8,
         0
     ],
-    "MOD_LIVERY": [
-        1,
-        0
-    ],
-    "MOD_SIDESKIRT": [
-        0,
-        0
-    ],
-    "MOD_SPOILERS": [
+    "MOD_HORNS": [
         2,
         0
     ],
+    "MOD_RIGHTFENDER": [
+        1,
+        0
+    ],
+    "MOD_SPOILERS": [
+        0,
+        0
+    ],
     "MOD_TRANSMISSION": [
-        3,
+        2,
         0
     ],
     "MOD_TURBO": "TOGGLE",
     "Model Attachments": [],
     "Neon Color": [
+        255,
         0,
-        0,
-        0
+        255
     ],
     "Neon Lights": [
         false,
@@ -61,25 +57,15 @@
         false
     ],
     "Pearlescent Color": 0,
-    "Plate Text": " 2FAST  ",
-    "Plate Text Index": 1,
-    "Primary Color": 70,
-    "Radio Station": "RADIO_19_USER",
-    "Secondary Color": 111,
-    "Tire Smoke Color": [
-        20,
-        20,
-        20
-    ],
+    "Plate Text": "28OUP403",
+    "Plate Text Index": 0,
+    "Primary Color": 28,
+    "Radio Station": "OFF",
+    "Secondary Color": 28,
     "Vehicle Attachments": [],
-    "Vehicle Extras": [
-        [
-            1,
-            true
-        ]
-    ],
-    "Vehicle Model Hash": 3630826055,
+    "Vehicle Extras": [],
+    "Vehicle Model Hash": 3437611258,
     "Vehicle Window Tint": 0,
-    "Wheel Color": 70,
+    "Wheel Color": 156,
     "Wheel Type": 0
 }
