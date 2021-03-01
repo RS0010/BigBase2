@@ -232,6 +232,9 @@ namespace big
 
 			g_pointers->m_netcat_insert(catalog + 88, key, &item);
 
+			if (*key == 0x7FFFD6BE)
+				g_hooking->m_netcat_insert_dedupe_hook.disable();
+
 			return TRUE;
 		} EXCEPT_CLAUSE
 		
