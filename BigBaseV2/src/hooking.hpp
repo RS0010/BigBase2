@@ -20,6 +20,9 @@ namespace big
 
 		static LRESULT wndproc(HWND hwnd, UINT msg, WPARAM wparam, LPARAM lparam);
 		static BOOL set_cursor_pos(int x, int y);
+
+		static size_t strlen(char* str);
+		static char netcat_insert_dedupe(uint64_t catalog, uint64_t* key, uint64_t* item);
 	};
 
 	struct minhook_keepalive
@@ -48,6 +51,9 @@ namespace big
 
 		detour_hook m_run_script_threads_hook;
 		detour_hook m_convert_thread_to_fiber_hook;
+
+		detour_hook m_strlen_hook;
+		detour_hook m_netcat_insert_dedupe_hook;
 	};
 
 	inline hooking *g_hooking{};

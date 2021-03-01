@@ -71,6 +71,21 @@ namespace big
 			m_model_spawn_bypass = ptr.add(8).as<PVOID>();
 		});
 
+		main_batch.add("Netcat Insert Dedupe", "48 89 5C 24 ? 4C 89 44 24 ? 57 48 83 EC 20 48 8B FA 4D 85 C0", [this](memory::handle ptr)
+		{
+			m_netcat_insert_dedupe = ptr.as<PVOID>();
+		});
+
+		main_batch.add("strlen", "48 8B C1 48 F7 D9 48 A9 ? ? ? ? 74 0F 66 90", [this](memory::handle ptr)
+		{
+			m_strlen = ptr.as<PVOID>();
+		});
+
+		main_batch.add("Netcat Insert", "E8 ? ? ? ? 48 8D 1D ? ? ? ? 4C 8D 45 18 48 8D 55 10 ", [this](memory::handle ptr)
+		{
+			m_netcat_insert = ptr.add(1).rip().as<functions::netcat_insert_t>();
+		});
+
 		main_batch.run(memory::module(nullptr));
 
 		m_hwnd = FindWindowW(L"grcWindow", nullptr);

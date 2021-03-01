@@ -23,6 +23,7 @@ namespace big
 		rage::scrNativeRegistrationTable *m_native_registration_table{};
 		functions::get_native_handler_t m_get_native_handler{};
 		functions::fix_vectors_t m_fix_vectors{};
+		functions::netcat_insert_t m_netcat_insert{};
 
 		rage::atArray<GtaThread*> *m_script_threads{};
 		rage::scrProgramTable *m_script_program_table{};
@@ -34,6 +35,8 @@ namespace big
 		IDXGISwapChain **m_swapchain{};
 
 		PVOID m_model_spawn_bypass;
+		PVOID m_strlen{};
+		PVOID m_netcat_insert_dedupe{};
 	};
 
 	inline pointers *g_pointers{};

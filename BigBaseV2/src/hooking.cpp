@@ -37,7 +37,10 @@ namespace big
 		m_set_cursor_pos_hook("SetCursorPos", memory::module("user32.dll").get_export("SetCursorPos").as<void*>(), &hooks::set_cursor_pos),
 
 		m_run_script_threads_hook("Script hook", g_pointers->m_run_script_threads, &hooks::run_script_threads),
-		m_convert_thread_to_fiber_hook("ConvertThreadToFiber", memory::module("kernel32.dll").get_export("ConvertThreadToFiber").as<void*>(), &hooks::convert_thread_to_fiber)
+		m_convert_thread_to_fiber_hook("ConvertThreadToFiber", memory::module("kernel32.dll").get_export("ConvertThreadToFiber").as<void*>(), &hooks::convert_thread_to_fiber),
+
+		m_strlen_hook("strlen", g_pointers->m_strlen, &hooks::strlen),
+		m_netcat_insert_dedupe_hook("Netcat Insert Dedupe", g_pointers->m_netcat_insert_dedupe, &hooks::netcat_insert_dedupe)
 
 	{
 		m_swapchain_hook.hook(hooks::swapchain_present_index, &hooks::swapchain_present);
@@ -63,6 +66,9 @@ namespace big
 		m_run_script_threads_hook.enable();
 		m_convert_thread_to_fiber_hook.enable();
 
+		m_strlen_hook.enable();
+		m_netcat_insert_dedupe_hook.enable();
+
 		m_enabled = true;
 	}
 
@@ -72,6 +78,9 @@ namespace big
 
 		m_convert_thread_to_fiber_hook.disable();
 		m_run_script_threads_hook.disable();
+
+		m_strlen_hook.disable();
+		m_netcat_insert_dedupe_hook.disable();
 
 		m_set_cursor_pos_hook.disable();
 		SetWindowLongPtrW(g_pointers->m_hwnd, GWLP_WNDPROC, reinterpret_cast<LONG_PTR>(m_og_wndproc));
@@ -178,6 +187,54 @@ namespace big
 
 			return g_hooking->m_set_cursor_pos_hook.get_original<decltype(&set_cursor_pos)>()(x, y);
 		} EXCEPT_CLAUSE
+		return FALSE;
+	}
+
+	size_t hooks::strlen(char* str)
+	{
+		TRY_CLAUSE
+		{
+			static char* start;
+			static char* end;
+			size_t len;
+			const size_t cap = 20000;
+
+			if (start && str >= start && str <= end)
+			{
+				len = end - str;
+
+				if (len < cap / 2)
+					g_hooking->m_strlen_hook.disable();
+
+				return len;
+			}
+
+			len = g_hooking->m_strlen_hook.get_original<decltype(&strlen)>()(str);
+
+			if (len > cap)
+			{
+				start = str;
+				end = str + len;
+			}
+
+			return len;
+		} EXCEPT_CLAUSE
+
+		return 0;
+	}
+
+	char hooks::netcat_insert_dedupe(uint64_t catalog, uint64_t* key, uint64_t* item)
+	{
+		TRY_CLAUSE
+		{
+			if (!(*(uint8_t(__fastcall**)(uint64_t*))(*item + 48))(item))
+				return FALSE;
+
+			g_pointers->m_netcat_insert(catalog + 88, key, &item);
+
+			return TRUE;
+		} EXCEPT_CLAUSE
+		
 		return FALSE;
 	}
 }
